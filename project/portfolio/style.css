@@ -1,0 +1,186 @@
+/* --------------------------
+   PORTFOLIO STYLE - INDIGO THEME
+--------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #faf3f3;
+    color: #333333;
+    display: flex;
+    min-height: 100vh;
+}
+
+/* ---------- SIDEBAR ---------- */
+.sidebar {
+    background-color: #042F2E; /* Indigo - dark shade */
+    width: 180px;
+    height: 100vh;
+    position: fixed;
+    padding-top: 30px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin: 8px 0;
+}
+
+.sidebar ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 12px 20px;
+    display: block;
+    transition: none;
+}
+
+.sidebar ul li a:hover {
+    background-color: #979ecb; /* Lighter indigo on hover */
+}
+
+/* ---------- MAIN CONTENT ---------- */
+.main-content {
+    margin-left: 180px;
+    width: calc(100% - 180px);
+    padding: 25px 40px;
+    background-color: #f0eaea;
+}
+
+/* ---------- HERO SECTION ---------- */
+.hero {
+    background: linear-gradient(90deg, #042F2E 0%, #042F2E 100%); /* Indigo gradient */
+    color: #ffffff;
+    text-align: center;
+    padding: 45px 20px;
+    border-radius: 6px;
+    margin-bottom: 30px;
+}
+
+/* --- PROFILE IMAGE STYLE --- */
+.profile-img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    margin-bottom: 15px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.hero p {
+    font-size: 17px;
+    opacity: 0.92;
+    margin-bottom: 22px;
+}
+
+.btn-connect {
+    background-color: #ffffff;
+    color: #040a31; /* Indigo text on button */
+    border: none;
+    padding: 9px 24px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+/* ---------- SECTIONS ---------- */
+.section-box {
+    background-color: #ffffff;
+    padding: 20px 0;
+    margin-bottom: 25px;
+}
+
+.section-title {
+    font-size: 22px;
+    color: #0c1664; /* Indigo title color */
+    padding-left: 12px;
+    border-left: 4px solid #3949ab; /* Indigo accent line */
+    margin-bottom: 15px;
+}
+
+/* About Me Text */
+.about-text {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #444444;
+    padding-left: 12px;
+}
+
+/* ---------- EXPERIENCE / EDUCATION ITEMS ---------- */
+.exp-item {
+    margin: 20px 12px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.exp-item:last-child {
+    border-bottom: none;
+}
+
+.exp-item h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #222222;
+    margin-bottom: 4px;
+}
+
+.exp-institution {
+    font-size: 14px;
+    color: #555555;
+    margin-bottom: 4px;
+}
+
+.exp-date {
+    font-size: 13px;
+    color: #777777;
+    margin-bottom: 10px;
+}
+
+.exp-item ul {
+    padding-left: 20px;
+}
+
+.exp-item ul li {
+    font-size: 14px;
+    color: #444444;
+    margin-bottom: 6px;
+    line-height: 1.6;
+}
+
+/* ---------- EDUCATION SECTION ---------- */
+.education-item {
+    margin: 20px 12px;
+}
+
+.education-item h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #222222;
+    margin-bottom: 4px;
+}
+
+/* ---------- SKILLS / CONTACT ---------- */
+.skills-list, .contact-info {
+    padding-left: 12px;
+    font-size: 15px;
+    line-height: 1.8;
+}
